@@ -1,0 +1,11 @@
+D:\Projects\AcademyPro Own\LmsEnv\bin\Debug\net8.0\LmsEnv.deps.json
+D:\Projects\AcademyPro Own\LmsEnv\bin\Debug\net8.0\LmsEnv.dll
+D:\Projects\AcademyPro Own\LmsEnv\bin\Debug\net8.0\LmsEnv.pdb
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\LmsEnv.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\LmsEnv.AssemblyInfoInputs.cache
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\LmsEnv.AssemblyInfo.cs
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\LmsEnv.csproj.CoreCompileInputs.cache
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\LmsEnv.dll
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\refint\LmsEnv.dll
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\LmsEnv.pdb
+D:\Projects\AcademyPro Own\LmsEnv\obj\Debug\net8.0\ref\LmsEnv.dll

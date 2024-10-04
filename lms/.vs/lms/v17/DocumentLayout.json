@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\AcademyPro Own\\lms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86E24CDB-C593-404B-9C25-F2EB04E5A6B8}|lms.csproj|d:\\projects\\academypro own\\lms\\areas\\course\\views\\coursecategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86E24CDB-C593-404B-9C25-F2EB04E5A6B8}|lms.csproj|solutionrelative:areas\\course\\views\\coursecategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDA3911-5F8D-437B-9E3B-6C5013B7C407}|..\\LmsServices\\LmsServices.csproj|d:\\projects\\academypro own\\lmsservices\\course\\implementations\\coursecategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E24CDB-C593-404B-9C25-F2EB04E5A6B8}|lms.csproj|d:\\projects\\academypro own\\lms\\areas\\course\\controllers\\coursecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24CDB-C593-404B-9C25-F2EB04E5A6B8}|lms.csproj|solutionrelative:areas\\course\\controllers\\coursecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseCategoryService.cs",
+              "DocumentMoniker": "D:\\Projects\\AcademyPro Own\\LmsServices\\Course\\Implementations\\CourseCategoryService.cs",
+              "RelativeDocumentMoniker": "..\\LmsServices\\Course\\Implementations\\CourseCategoryService.cs",
+              "ToolTip": "D:\\Projects\\AcademyPro Own\\LmsServices\\Course\\Implementations\\CourseCategoryService.cs",
+              "RelativeToolTip": "..\\LmsServices\\Course\\Implementations\\CourseCategoryService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwC8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:45:18.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseCategoryController.cs",
+              "DocumentMoniker": "D:\\Projects\\AcademyPro Own\\lms\\Areas\\Course\\Controllers\\CourseCategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Course\\Controllers\\CourseCategoryController.cs",
+              "ToolTip": "D:\\Projects\\AcademyPro Own\\lms\\Areas\\Course\\Controllers\\CourseCategoryController.cs",
+              "RelativeToolTip": "Areas\\Course\\Controllers\\CourseCategoryController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:44:47.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\AcademyPro Own\\lms\\Areas\\Course\\Views\\CourseCategory\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Course\\Views\\CourseCategory\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\AcademyPro Own\\lms\\Areas\\Course\\Views\\CourseCategory\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Course\\Views\\CourseCategory\\Index.cshtml",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAYwA8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T12:27:32.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

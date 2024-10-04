@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\vendor\unicons-2.0.1\.github\workflows\autotag.yml" />
+    <None Include="wwwroot\vendor\unicons-2.0.1\.github\workflows\npm-publish-pro.yml" />
+    <None Include="wwwroot\vendor\unicons-2.0.1\.github\workflows\npm-publish-rc-pro.yml" />
+    <None Include="wwwroot\vendor\unicons-2.0.1\.github\workflows\npm-publish-rc.yml" />
+    <None Include="wwwroot\vendor\unicons-2.0.1\.github\workflows\npm-publish.yml" />
+    <None Include="wwwroot\vendor\unicons-2.0.1\.github\workflows\update-icons.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Course\Data\" />
+    <Folder Include="Areas\Course\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LmsEnv\LmsEnv.csproj" />
+    <ProjectReference Include="..\LmsModels\LmsModels.csproj" />
+    <ProjectReference Include="..\LmsServices\LmsServices.csproj" />
+  </ItemGroup>
+
+</Project>
