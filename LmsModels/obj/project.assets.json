@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj",
+      "projectUniqueName": "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj",
       "projectName": "LmsModels",
-      "projectPath": "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj",
+      "projectPath": "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AcademyPro Own\\LmsModels\\obj\\",
+      "outputPath": "D:\\Projects\\AcademyPro\\LmsModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

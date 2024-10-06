@@ -27,7 +27,7 @@ namespace LmsServices.Course.Implementations
 				new ("@CourseCategoryId", 0),
 				new ("@ParentId", category.ParentId?? (object)DBNull.Value),
 				new ("@CourseCategoryName", category.CourseCategoryName),
-				new ("@Status", category.Status?? (object)DBNull.Value),
+				new ("@Status", category.Status),
 			};
 
 			QueryService.NonQuery("[sp_CreateUpdateDeleteRestore_CourseCategories]", parameters);
@@ -35,7 +35,16 @@ namespace LmsServices.Course.Implementations
 
 		public void Delete(int id)
 		{
-			throw new NotImplementedException();
+			var parameters = new List<KeyValuePair<string, object>>
+			{
+				new ("@type", "DELETE"),
+				new ("@CourseCategoryId", id),
+				new ("@ParentId", (object)DBNull.Value),
+				new ("@CourseCategoryName", ""),
+				new ("@Status", 0),
+			};
+
+			QueryService.NonQuery("[sp_CreateUpdateDeleteRestore_CourseCategories]", parameters);
 		}
 
 		public List<CourseCategoryModel> GetAll()
@@ -51,19 +60,45 @@ namespace LmsServices.Course.Implementations
 						ParentId = reader["ParentId"] != DBNull.Value ? Convert.ToInt16(reader["ParentId"]) : (short?)null, // Nullable short
 						ParentCategoryName = reader["ParentCategoryName"] != DBNull.Value ? reader["ParentCategoryName"].ToString() : null,
 						CourseCategoryName = reader["CourseCategoryName"].ToString(), // Assuming CourseCategoryName is non-nullable in DB
-						Status = reader["Status"] != DBNull.Value ? reader["Status"].ToString() : null
+							
+						// This will set Status to true if the value of Status in the database is "1"
+						Status = reader["Status"].ToString() == "1",
+						StatusLabel = reader["StatusLabel"].ToString()
 					};
 				});
 		}
 
-		public Task<List<CourseCategoryModel>> GetAllAsync()
-		{
-			throw new NotImplementedException();
-		}
 
 		public CourseCategoryModel GetById(int id)
 		{
-			throw new NotImplementedException();
+			var result =  QueryService.Query(
+				"sp_GetAll_CourseCategories",
+				reader =>
+				{
+					return new CourseCategoryModel
+					{
+						CourseCategoryId = reader["CourseCategoryId"] != DBNull.Value ? Convert.ToInt16(reader["CourseCategoryId"]) : (short)0,
+						ParentId = reader["ParentId"] != DBNull.Value ? Convert.ToInt16(reader["ParentId"]) : (short?)null, // Nullable short
+						ParentCategoryName = reader["ParentCategoryName"] != DBNull.Value ? reader["ParentCategoryName"].ToString() : null,
+						CourseCategoryName = reader["CourseCategoryName"].ToString(), // Assuming CourseCategoryName is non-nullable in DB
+						
+						// This will set Status to true if the value of Status in the database is "1"
+						Status = reader["Status"].ToString() == "1",
+						StatusLabel = reader["StatusLabel"].ToString()
+					};
+				});
+
+			// Check if there are any records and return the first one or handle null if no records
+			if (result != null && result.Count > 0)
+			{
+				return result[0];
+			}
+			else
+			{
+				return null; // Or handle appropriately if no data is found
+			}
+
+
 		}
 
 		public void Restore(int id)
@@ -78,7 +113,15 @@ namespace LmsServices.Course.Implementations
 
 		public void Update(CourseCategoryModel category)
 		{
-			throw new NotImplementedException();
+			var parameters = new List<KeyValuePair<string, object>>
+			{
+				new ("@type", "UPDATE"),
+				new ("@CourseCategoryId", category.CourseCategoryId),
+				new ("@ParentId", category.ParentId?? (object)DBNull.Value),
+				new ("@CourseCategoryName", category.CourseCategoryName),
+				new ("@Status", category.Status),
+			};
+			QueryService.NonQuery("[sp_CreateUpdateDeleteRestore_CourseCategories]", parameters);
 		}
 	}
 }

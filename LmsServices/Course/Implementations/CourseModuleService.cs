@@ -29,7 +29,7 @@ namespace LmsServices.Course.Implementations
 				new("@ModuleName", courseModule.ModuleName),
 				new("@ModuleDescription", courseModule.ModuleDescription?? ""),
 				new("@ModuleOrder", 1),
-				new("@Status", courseModule.Status??"Inactive"),
+				new("@Status", courseModule.Status),
 
 			};
 
@@ -52,7 +52,7 @@ namespace LmsServices.Course.Implementations
 						ModuleName = reader["ModuleName"].ToString(),
 						ModuleDescription = reader["ModuleDescription"].ToString(),
 						ModuleOrder = Convert.ToInt16(reader["ModuleOrder"]),
-						Status = reader["Status"].ToString(),
+						Status = reader["Status"].ToString() == "1",
 					};
 				},
 				new SqlParameter("@CourseModuleId", CourseModuleId),

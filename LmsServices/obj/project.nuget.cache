@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d4UGEwD6RH4=",
+  "dgSpecHash": "FyDOGteqBF4=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj",
+  "projectFilePath": "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

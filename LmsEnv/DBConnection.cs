@@ -8,7 +8,7 @@ namespace LmsEnv
 {
 	public class DbConnect
 	{
-		public static string DefaultConnection = "Server=BOTMASTER-SRD\\MSSQLEXPRESS;Database=academypro;User Id=sa;Password=pass@1234;TrustServerCertificate=True";
+		public static string DefaultConnection = "Server=BOTMASTER-SRD\\MSSQLEXPRESS;Database=academy_pro_db;User Id=sa;Password=pass@1234;TrustServerCertificate=True";
 
 	}
 }

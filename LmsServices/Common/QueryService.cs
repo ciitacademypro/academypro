@@ -33,7 +33,7 @@ namespace LmsServices.Common
 			}
 		}
 
-		public static List<T> Query<T>(string spName, Func<SqlDataReader, T> mapFunction, params SqlParameter[] parameters)
+		public static List<T> Query<T>(string spName,  Func<SqlDataReader, T> mapFunction, params SqlParameter[] parameters)
 		{
 			string connString = DbConnect.DefaultConnection;
 

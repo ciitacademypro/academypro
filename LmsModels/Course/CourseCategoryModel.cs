@@ -14,7 +14,9 @@ namespace LmsModels.Course
 		public short? ParentId { get; set; }
 		public string? ParentCategoryName { get; set; }
 		public string CourseCategoryName { get; set; } = null!;
-		public string? Status { get; set; }
+		public bool Status { get; set; }
+		public string? StatusLabel { get; set; }
+
 		public virtual CourseCategoryModel? ParentCategory { get; set; }
 	}
 }

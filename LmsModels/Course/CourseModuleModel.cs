@@ -12,10 +12,12 @@ namespace LmsModels.Course
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		public int CourseModuleId { get; set; }
 		public short CourseId { get; set; }
-		public string CourseName { get; set; }
+		public string? CourseName { get; set; }
 		public string ModuleName { get; set; }
-		public string ModuleDescription { get; set; }
+		public string? ModuleDescription { get; set; }
 		public short ModuleOrder { get; set; }
-		public string Status { get; set; }
+		public bool Status { get; set; }
+		public string? StatusLabel { get; set; }
+
 	}
 }

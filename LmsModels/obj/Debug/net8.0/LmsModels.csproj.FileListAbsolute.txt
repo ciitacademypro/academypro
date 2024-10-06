@@ -9,3 +9,15 @@ D:\Projects\AcademyPro Own\LmsModels\obj\Debug\net8.0\LmsModels.dll
 D:\Projects\AcademyPro Own\LmsModels\obj\Debug\net8.0\refint\LmsModels.dll
 D:\Projects\AcademyPro Own\LmsModels\obj\Debug\net8.0\LmsModels.pdb
 D:\Projects\AcademyPro Own\LmsModels\obj\Debug\net8.0\ref\LmsModels.dll
+D:\Projects\AcademyPro\LmsModels\bin\Debug\net8.0\LmsModels.deps.json
+D:\Projects\AcademyPro\LmsModels\bin\Debug\net8.0\LmsModels.dll
+D:\Projects\AcademyPro\LmsModels\bin\Debug\net8.0\LmsModels.pdb
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.AssemblyInfoInputs.cache
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.AssemblyInfo.cs
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.csproj.CoreCompileInputs.cache
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.sourcelink.json
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.dll
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\refint\LmsModels.dll
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\LmsModels.pdb
+D:\Projects\AcademyPro\LmsModels\obj\Debug\net8.0\ref\LmsModels.dll

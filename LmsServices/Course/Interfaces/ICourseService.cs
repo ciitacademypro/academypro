@@ -15,7 +15,7 @@ namespace LmsServices.Course.Interfaces
 		public void Delete(int id);
 		public void Restore(int id);
 		public void ToggleStatus(int id);
-		public List<CourseModel> GetById(int id);
+		public CourseModel GetById(int id);
 		public List<CourseModel> GetAll(int courseId = 0, int categoryId = 0);
 	}
 }

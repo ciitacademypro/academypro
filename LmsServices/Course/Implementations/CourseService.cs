@@ -20,14 +20,13 @@ namespace LmsServices.Course.Implementations
 		{
 			var parameters = new List<KeyValuePair<string, object>>
 			{
-				new("@type", "INSERT"),
+				new("@Type", "INSERT"),
 				new("@CourseId", 0),
 				new("@CourseCategoryId", course.CourseCategoryId),
 				new("@CourseName", course.CourseName),
 				new("@CourseDescription", course.CourseDescription?? ""),
 				new("@CourseLevel", course.CourseLevel?? (object)DBNull.Value),
-				new("@Status", course.Status),
-
+				new("@Status", course.Status)
 			};
 
 			QueryService.NonQuery("[sp_CreateUpdateDeleteRestore_Courses]", parameters);
@@ -111,7 +110,7 @@ namespace LmsServices.Course.Implementations
 						CourseName = reader["CourseName"].ToString(),
 						CourseDescription = reader["CourseDescription"].ToString(),
 						CourseLevel = reader["CourseLevel"].ToString(),
-						Status = reader["Status"].ToString(),
+						Status = reader["Status"].ToString() == "1",
 						CourseOrder = Convert.ToInt16(reader["CourseId"]),
 					};
 				},
@@ -121,9 +120,9 @@ namespace LmsServices.Course.Implementations
 		}
 
 
-		public List<CourseModel> GetById(int id)
+		public CourseModel GetById(int id)
 		{
-			return QueryService.Query(
+			var result =  QueryService.Query(
 				"sp_GetAll_Course",
 				reader =>
 				{
@@ -135,13 +134,26 @@ namespace LmsServices.Course.Implementations
 						CourseName = reader["CourseName"].ToString(),
 						CourseDescription = reader["CourseDescription"].ToString(),
 						CourseLevel = reader["CourseLevel"].ToString(),
-						Status = reader["Status"].ToString(),
+						Status = reader["Status"].ToString() == "1",
 						CourseOrder = Convert.ToInt16(reader["CourseId"]),
 					};
 				},
 				new SqlParameter("@CourseId", id),
 				new SqlParameter("@CourseCategoryId", 0)
 			);
+
+
+			// Check if there are any records and return the first one or handle null if no records
+			if (result != null && result.Count > 0)
+			{
+				return result[0];
+			}
+			else
+			{
+				return null; // Or handle appropriately if no data is found
+			}
+
+
 		}
 
 		public void Restore(int id)
@@ -156,7 +168,18 @@ namespace LmsServices.Course.Implementations
 
 		public void Update(CourseModel course)
 		{
-			throw new NotImplementedException();
+
+			var parameters = new List<KeyValuePair<string, object>>
+			{
+				new("@Type", "UPDATE"),
+				new("@CourseId", course.CourseId),
+				new("@CourseCategoryId", course.CourseCategoryId),
+				new("@CourseName", course.CourseName),
+				new("@CourseDescription", course.CourseDescription?? ""),
+				new("@CourseLevel", course.CourseLevel?? (object)DBNull.Value),
+				new("@Status", course.Status)
+			};
+			QueryService.NonQuery("[sp_CreateUpdateDeleteRestore_Courses]", parameters);
 		}
 	}
 }

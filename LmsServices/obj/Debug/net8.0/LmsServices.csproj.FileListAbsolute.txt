@@ -15,3 +15,21 @@ D:\Projects\AcademyPro Own\LmsServices\obj\Debug\net8.0\LmsServices.dll
 D:\Projects\AcademyPro Own\LmsServices\obj\Debug\net8.0\refint\LmsServices.dll
 D:\Projects\AcademyPro Own\LmsServices\obj\Debug\net8.0\LmsServices.pdb
 D:\Projects\AcademyPro Own\LmsServices\obj\Debug\net8.0\ref\LmsServices.dll
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsServices.deps.json
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsServices.dll
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsServices.pdb
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsEnv.dll
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsModels.dll
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsEnv.pdb
+D:\Projects\AcademyPro\LmsServices\bin\Debug\net8.0\LmsModels.pdb
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.csproj.AssemblyReference.cache
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.AssemblyInfoInputs.cache
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.AssemblyInfo.cs
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.csproj.CoreCompileInputs.cache
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.sourcelink.json
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServi.D552A4B7.Up2Date
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.dll
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\refint\LmsServices.dll
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\LmsServices.pdb
+D:\Projects\AcademyPro\LmsServices\obj\Debug\net8.0\ref\LmsServices.dll

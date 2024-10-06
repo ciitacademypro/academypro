@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj": {}
+    "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj": {
+    "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj",
+        "projectUniqueName": "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj",
         "projectName": "LmsEnv",
-        "projectPath": "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj",
+        "projectPath": "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\AcademyPro Own\\LmsEnv\\obj\\",
+        "outputPath": "D:\\Projects\\AcademyPro\\LmsEnv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj": {
+    "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj",
+        "projectUniqueName": "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj",
         "projectName": "LmsModels",
-        "projectPath": "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj",
+        "projectPath": "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\AcademyPro Own\\LmsModels\\obj\\",
+        "outputPath": "D:\\Projects\\AcademyPro\\LmsModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj": {
+    "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj",
+        "projectUniqueName": "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj",
         "projectName": "LmsServices",
-        "projectPath": "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj",
+        "projectPath": "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\AcademyPro Own\\LmsServices\\obj\\",
+        "outputPath": "D:\\Projects\\AcademyPro\\LmsServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,11 +151,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj": {
-                "projectPath": "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj"
+              "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj": {
+                "projectPath": "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj"
               },
-              "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj": {
-                "projectPath": "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj"
+              "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj": {
+                "projectPath": "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj"
               }
             }
           }
