@@ -7496,11 +7496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\AcademyPro Own\\lms\\lms.csproj",
+      "projectUniqueName": "D:\\Projects\\AcademyPro\\lms\\lms.csproj",
       "projectName": "lms",
-      "projectPath": "D:\\Projects\\AcademyPro Own\\lms\\lms.csproj",
+      "projectPath": "D:\\Projects\\AcademyPro\\lms\\lms.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\AcademyPro Own\\lms\\obj\\",
+      "outputPath": "D:\\Projects\\AcademyPro\\lms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7518,14 +7518,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj": {
-              "projectPath": "D:\\Projects\\AcademyPro Own\\LmsEnv\\LmsEnv.csproj"
+            "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj": {
+              "projectPath": "D:\\Projects\\AcademyPro\\LmsEnv\\LmsEnv.csproj"
             },
-            "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj": {
-              "projectPath": "D:\\Projects\\AcademyPro Own\\LmsModels\\LmsModels.csproj"
+            "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj": {
+              "projectPath": "D:\\Projects\\AcademyPro\\LmsModels\\LmsModels.csproj"
             },
-            "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj": {
-              "projectPath": "D:\\Projects\\AcademyPro Own\\LmsServices\\LmsServices.csproj"
+            "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj": {
+              "projectPath": "D:\\Projects\\AcademyPro\\LmsServices\\LmsServices.csproj"
             }
           }
         }

@@ -48,7 +48,7 @@
 								<td class="cell-ta">@item.ModuleDescription</td>
 								<td class="cell-ta">@item.ModuleOrder</td>
 								<td class="text-center">
-									<i class="badge badge-@(item.Status=="Active"?"success":"danger")">@item.Status</i>
+									<i class="badge badge-@(item.StatusLabel=="1"?"success":"danger")">@item.StatusLabel</i>
 								</td>
 								<td class="text-center">
 									<a title="Edit" class="btn gray-s btn-edit"><i class="uil uil-edit-alt"></i></a>

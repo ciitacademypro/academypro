@@ -23,10 +23,8 @@ namespace lms.Areas.Course.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Create([Bind("ParentId, CourseCategoryName, Status, DeletedAt")] CourseCategoryModel coursesCategory, string status)
+		public IActionResult Create([Bind("ParentId, CourseCategoryName, Status")] CourseCategoryModel coursesCategory)
 		{
-
-			coursesCategory.Status = status == null ? "Inactive" : "Active";
 			coursesCategory.ParentId = coursesCategory.ParentId == 0 ? null : coursesCategory.ParentId;
 
 			_courseCategoryService.Create(coursesCategory);
@@ -34,11 +32,10 @@ namespace lms.Areas.Course.Controllers
 			TempData["success"] = "Record Added successfully!";
 			return RedirectToAction("Index");
 		}
-
+				
 		[HttpPost]
-		public IActionResult Update([Bind("CourseCategoryId, ParentId, CourseCategoryName, Status, DeletedAt")] CourseCategoryModel coursesCategory, string status)
+		public IActionResult Update(CourseCategoryModel coursesCategory)
 		{
-			coursesCategory.Status = status == null ? "Inactive" : "Active";
 			coursesCategory.ParentId = coursesCategory.ParentId == 0 ? null : coursesCategory.ParentId;
 
 			_courseCategoryService.Update(coursesCategory);

@@ -40,6 +40,25 @@ namespace lms.Areas.Course.Controllers
 			return RedirectToAction("Index");
 		}
 
+		public IActionResult Edit(int id)
+		{
+			ViewBag.CourseCategories = _courseCategoryService.GetAll();
+			ViewBag.id = id;
+			CourseModel course = _courseService.GetById(id);
+			return View(course);
+		}
+
+		[HttpPost]
+		public IActionResult Edit(CourseModel course)
+		{
+			_courseService.Update(course);
+
+			TempData["success"] = "Course updated successfully!";
+			return RedirectToAction("Index");
+		}
+
+
+
 		public IActionResult GetIdNameList(int id)
 		{
 			var courses =  _courseService.GetAll(0, id); // CourseId, CategoryId
